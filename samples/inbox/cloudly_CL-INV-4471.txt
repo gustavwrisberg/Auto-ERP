@@ -1,0 +1,11 @@
+Cloudly Software GmbH                     [FICTIONAL DEMO INVOICE]
+Berlin, Germany · VAT ID DE999999999
+
+Invoice CL-INV-4471
+Invoice date: 2026-11-01   Due date: 2026-11-15
+Bill to: Fjordside Demo ApS, Denmark
+
+Team plan, 12 seats, November 2026        EUR 240.00
+VAT                                       EUR   0.00
+Reverse charge - VAT to be accounted for by the recipient (Art. 196 VAT Directive)
+Total                                     EUR 240.00

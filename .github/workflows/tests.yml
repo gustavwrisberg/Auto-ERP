@@ -1,0 +1,16 @@
+name: tests
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: pytest -q
+      - name: Eval script runs on a simulated perfect run
+        run: python tests/simulate_run.py && python evals/run_eval.py
+        env:
+          DEMO_TODAY: "2026-11-24"

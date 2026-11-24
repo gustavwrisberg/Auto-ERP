@@ -1,0 +1,9 @@
+Bogholderiet Østerbro                     [FICTIONAL DEMO INVOICE]
+CVR 90000004
+
+Faktura 2026-311
+Dato: 20/11/2026   Forfald: netto 14 dage
+
+Bogføring og momsafstemning, oktober 2026      8.000,00
+Moms 25%                                       2.000,00
+Total                                         10.500,00

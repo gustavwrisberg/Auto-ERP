@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "auto-erp": {
+      "command": "python3",
+      "args": ["-m", "erp_mcp.server"],
+      "env": {
+        "PYTHONPATH": "/ABSOLUTE/PATH/TO/Auto-ERP",
+        "DEMO_TODAY": "2026-11-24",
+        "ERP_READ_ONLY": "1"
+      }
+    }
+  }
+}

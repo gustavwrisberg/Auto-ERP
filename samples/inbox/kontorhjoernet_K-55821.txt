@@ -1,0 +1,15 @@
+KONTORHJØRNET A/S                         [FICTIONAL DEMO INVOICE]
+Industrivej 12, 2600 Glostrup · CVR 90000001
+
+FAKTURA nr. K-55821
+Fakturadato: 18.11.2026        Forfaldsdato: 02.12.2026
+Kunde: Fjordside Demo ApS
+
+Antal  Vare                                 Beløb
+  10   Kopipapir A4, 500 ark                  450,00
+   4   Toner sort, HL-serien                1.120,00
+   6   Ringbind og mapper                     390,00
+
+Subtotal ekskl. moms                         1.960,00
+Moms 25%                                       490,00
+I ALT DKK                                    2.450,00

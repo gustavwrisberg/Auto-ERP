@@ -1,0 +1,9 @@
+NORDVIND FRAGT ApS                        [FICTIONAL DEMO INVOICE]
+CVR 90000002
+
+Invoice no.: NF-77120          Date: 03-11-2026     Due: 17-11-2026
+Freight Aarhus -> Copenhagen, 3 pallets
+
+Net amount                 DKK 2,400.00
+VAT 25%                    DKK   600.00
+Total                      DKK 3,000.00

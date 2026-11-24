@@ -1,0 +1,9 @@
+LYSKILDE ENERGI A/S                       [FICTIONAL DEMO INVOICE]
+CVR 90000003
+
+Faktura LE-2026-1188 · Dato 2026-11-15 · Betales senest 2026-11-30
+Elforbrug oktober 2026, Havnegade 4
+
+Forbrug 2.156 kWh                            4.312,00
+Moms 25 %                                    1.078,00
+Total at betale                              5.390,00 DKK

@@ -1,0 +1,61 @@
+{
+  "company": {
+    "name": "Fjordside Demo ApS",
+    "note": "Fictional company. All data in this file is invented for demonstrations.",
+    "currency": "DKK",
+    "approval_limit_dkk": 50000
+  },
+  "accounts": [
+    {"number": 1310, "name": "Varekøb (goods for resale)"},
+    {"number": 2210, "name": "Husleje (rent)"},
+    {"number": 2400, "name": "El, vand og varme (utilities)"},
+    {"number": 2750, "name": "Software og abonnementer (software & subscriptions)"},
+    {"number": 2800, "name": "Kontorartikler (office supplies)"},
+    {"number": 2850, "name": "Rådgivning (consulting & accounting fees)"},
+    {"number": 2900, "name": "Transport og fragt (freight)"},
+    {"number": 3100, "name": "Reparation og vedligehold (repairs)"}
+  ],
+  "vat_codes": [
+    {"code": "I25", "name": "Indgående moms 25% (Danish input VAT)", "rate": 0.25},
+    {"code": "I0", "name": "Ingen moms / momsfri (no VAT)", "rate": 0.0},
+    {"code": "IEU", "name": "EU-køb af ydelser, omvendt betalingspligt (EU reverse charge)", "rate": 0.0}
+  ],
+  "suppliers": [
+    {"id": "S100", "name": "Kontorhjørnet A/S", "cvr": "90000001", "default_account": 2800, "default_vat": "I25"},
+    {"id": "S101", "name": "Nordvind Fragt ApS", "cvr": "90000002", "default_account": 2900, "default_vat": "I25"},
+    {"id": "S102", "name": "Lyskilde Energi A/S", "cvr": "90000003", "default_account": 2400, "default_vat": "I25"},
+    {"id": "S103", "name": "Bogholderiet Østerbro", "cvr": "90000004", "default_account": 2850, "default_vat": "I25"},
+    {"id": "S104", "name": "Cloudly Software GmbH", "cvr": null, "eu_vat": "DE999999999", "default_account": 2750, "default_vat": "IEU"},
+    {"id": "S105", "name": "Træ & Tømmer Engros ApS", "cvr": "90000005", "default_account": 1310, "default_vat": "I25"}
+  ],
+  "customers": [
+    {"id": "C200", "name": "Havnecaféen ApS", "email": "faktura@havnecafeen.example"},
+    {"id": "C201", "name": "Grøn Gård I/S", "email": "regnskab@groengaard.example"},
+    {"id": "C202", "name": "Studio Lysning", "email": "hej@lysning.example"}
+  ],
+  "sales_invoices": [
+    {"number": 1041, "customer_id": "C200", "date": "2026-09-15", "due_date": "2026-10-15", "total": 18750.00, "paid": false},
+    {"number": 1042, "customer_id": "C201", "date": "2026-10-01", "due_date": "2026-10-31", "total": 6250.00, "paid": true},
+    {"number": 1043, "customer_id": "C202", "date": "2026-10-10", "due_date": "2026-11-09", "total": 3125.00, "paid": false},
+    {"number": 1044, "customer_id": "C201", "date": "2026-11-01", "due_date": "2026-12-01", "total": 9375.00, "paid": false}
+  ],
+  "vouchers": [
+    {
+      "id": "V-0001",
+      "status": "booked",
+      "supplier_id": "S101",
+      "invoice_number": "NF-77120",
+      "invoice_date": "2026-11-03",
+      "due_date": "2026-11-17",
+      "account": 2900,
+      "vat_code": "I25",
+      "amount_excl_vat": 2400.00,
+      "vat_amount": 600.00,
+      "total": 3000.00,
+      "currency": "DKK",
+      "source_file": "archive/NF-77120.pdf",
+      "created_by": "bookkeeper",
+      "flags": []
+    }
+  ]
+}
